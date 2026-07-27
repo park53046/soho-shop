@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f8f6e3;
   --foreground: #171717;
 }
 
@@ -12,11 +12,9 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* 쇼핑몰은 항상 밝은(라이트) 테마로 고정 — OS 다크모드 무시 */
+:root {
+  color-scheme: light;
 }
 
 body {
