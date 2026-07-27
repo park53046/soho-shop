@@ -1,7 +1,7 @@
 // 샘플 상품 데이터 (농산물) — 나중에 DB(Turso)로 옮기면 됩니다.
 // image(실제 사진 경로)가 있으면 사진을, 없으면 emoji를 보여줍니다.
 
-export type Category = "제철" | "사철";
+export type Category = "제철" | "계절";
 
 export type Product = {
   id: string;
